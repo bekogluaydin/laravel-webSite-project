@@ -8,9 +8,7 @@
 <div class="col-md-7 mx-auto">
 
  {!!$article->content!!}</br>
-    <span class="text-danger float-right">Okunma Sayısı: <b>{{$article->hit}}</b></span></br></br>
-
-
+ <span class="text-danger float-right">Okunma Sayısı: <b>{{$article->hit}}</b></span></br></br></br>
 
 <div>
         @comments(['model' => $article])
@@ -18,6 +16,5 @@
 
 </div>
    
-
 @include('frontEnd.widgets.categoryWidget')
 @endsection

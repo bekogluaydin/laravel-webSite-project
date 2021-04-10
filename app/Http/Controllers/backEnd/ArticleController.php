@@ -49,7 +49,7 @@ class ArticleController extends Controller
         
         $request->validate([
             'title'=>'required|min:3',
-            'image'=>'required|image|mimes:jpeg,jpg,png|max:4096'
+            'image'=>'required|image|mimes:jpeg,jpg,png,webp|max:4096'
         ]);
 
         $article=new Article;
