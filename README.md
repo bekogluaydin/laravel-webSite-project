@@ -9,7 +9,7 @@
 
 ## Information For Project
 
-You can access the database backup from the "sql_BackupFile" folder.
+**You can access the database backup from the "sql_BackupFile" folder.**
 
 ## About Laravel
 
